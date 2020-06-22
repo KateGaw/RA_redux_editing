@@ -1,4 +1,4 @@
-
+[![Build status](https://ci.appveyor.com/api/projects/status/pvqghti5oe232u0r?svg=true)](https://ci.appveyor.com/project/KateGaw/ra-redux-editing)
 
 https://kategaw.github.io/RA_redux_editing/
 
