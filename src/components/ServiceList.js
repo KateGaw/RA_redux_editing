@@ -18,7 +18,7 @@ function ServiceList() {
   return (
     <ul>
       {items.map((o) => (
-        <li key={o.id}>
+        <li key={o.id} className='li_item'>
           {o.name} {o.price}
           <button onClick={() => handleEdit(o)}>✎</button>
           <button onClick={() => handleRemove(o.id)}>✕</button>

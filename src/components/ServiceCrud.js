@@ -24,7 +24,7 @@ function ServiceCrud() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className='form'>
       <input name="name" onChange={handleChange} value={item.name} />
       <input name="price" onChange={handleChange} value={item.price} />
       <button type="submit">Save</button>
